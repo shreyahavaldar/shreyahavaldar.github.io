@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Hello!"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Professor Lyle Ungar.
+Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Professor Lyle Ungar.
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Professor Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 

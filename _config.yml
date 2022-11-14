@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Shreya Havaldar"
   avatar           : "/shreya.jpeg"
-  bio              : "PhD student @ UPenn. Multilingual NLP + Psychology"
+  bio              : "PhD student @ UPenn. Multilingual NLP + Psychology <br><br> <b>shreyah at seas.upenn.edu</b>"
   location         : 
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=h2tzi9MAAAAJ&hl=en"
-  email            :  "shreyah@seas.upenn.edu"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
