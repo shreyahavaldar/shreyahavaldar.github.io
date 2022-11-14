@@ -57,12 +57,21 @@
   }
 }
 
+.page_venue {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
+  margin-block-end: 0.5em;
 
   & + p {
     text-indent: 0;
+    font-size: 0.85em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
   }
 }
 

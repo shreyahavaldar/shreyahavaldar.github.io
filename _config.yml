@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shreya Havaldar / Home"
+title                    : "Shreya Havaldar"
 title_separator          : "-"
 name                     : &name "Shreya Havaldar"
 description              : &description "PhD student @ UPenn. Multilingual NLP + Psychology"
@@ -83,10 +83,10 @@ author:
   name             : "Shreya Havaldar"
   avatar           : "/shreya.jpeg"
   bio              : "PhD student @ UPenn. Multilingual NLP + Psychology"
-  location         : "Philadelphia, PA"
+  location         : 
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=h2tzi9MAAAAJ&hl=en"
-  email            :
+  email            :  "shreyah@seas.upenn.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
