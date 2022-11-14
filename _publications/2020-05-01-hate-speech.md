@@ -1,5 +1,5 @@
 ---
-title: "Hatred is in the Eye of the Annotator: Hate Speech Classifiers Learn Human-Like Social Stereotypes."
+title: "Hatred is in the Eye of the Annotator: Hate Speech Classifiers Learn Human-Like Social Stereotypes"
 collection: publications
 permalink: /publications/hate-speech
 date: 2020-05-01
