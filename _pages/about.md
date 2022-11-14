@@ -19,4 +19,4 @@ My current work includes:
  - Analyzing how Twitter reflects the differences in individualism/collectivism across American counties
 
 
-Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please email me if you want to chat about my research, the PhD application process, or if you know where to find a good burrito in Philly.
+Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the PhD application process, or if you know where to find a good burrito in Philly!
