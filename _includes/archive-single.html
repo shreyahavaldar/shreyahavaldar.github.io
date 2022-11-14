@@ -27,11 +27,15 @@
     {% endif %}
 
       {% if post.collection == 'publications' %}
-        <h3 itemprop="headline"> <a href=" {{ post.paperurl }} ">{{ title }}</a></h3>
+        <h2 itemprop="headline"> <a href=" {{ post.paperurl }} ">{{ title }}</a></h2>
+      {% elsif post.collection == 'projects' %}
+        <h2 itemprop="headline"> <a href=" {{ post.paperurl }} ">{{ title }}</a></h2>
+      {% elsif post.collection == 'talks' %}
+        <h2 itemprop="headline"> <a href=" {{ post.paperurl }} ">{{ title }}</a></h2>
       {% else %}
-        <h3 class="archive__item-title" itemprop="headline">
+        <h2 class="archive__item-title" itemprop="headline">
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-        </h3>
+        </h2>
       {% endif %}    
     
     {% if post.read_time %}
@@ -42,8 +46,12 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} </p>
+        {% elsif post.collection == 'projects' %}
+          <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} </p>
+        {% elsif post.collection == 'talks' %}
+          <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.location }} | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} </p>
         {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
