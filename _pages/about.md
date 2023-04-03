@@ -7,16 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Professor Lyle Ungar.
+Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Professors Lyle Ungar and Eric Wong. 
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Professor Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
-My work is focused on multilingual NLP and understanding how cultural dimensions are reflected in language. I am interested in investigating culturally-aware explanations for multilingual models as well as developing conversational agents that reflect cultural norms. 
+My work is focused on multilingual NLP and understanding how cultural dimensions are reflected in language. I am interested in creating culturally-aware explanation methods for multilingual models as well as using large language models as a tool to empirically investigate cultural differences. My work is suported by the NSF Graduate Research Fellowship Program. 
 
-My current work includes: 
- - Investigating how politeness differs in conversations between Wikipedia editors from different countries
- - Multilingual neural topic modeling for emotions
+I am currently working on: 
+ - Explaining multicultural differences in politeness by analyzing conversations between Wikipedia editors from different countries
+ - Investigating whether multilingual LMs reflect the cultural norms of emotional expression
  - Analyzing how Twitter reflects the differences in individualism/collectivism across American counties
 
 
-Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research or the PhD application process!
+Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the NSF GRFP, or the PhD application process!
