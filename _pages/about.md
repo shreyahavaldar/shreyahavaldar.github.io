@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Professors Lyle Ungar and Eric Wong. 
+Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by Lyle Ungar and Eric Wong. 
 
-Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Professor Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
+Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
 My work is focused on multilingual NLP and understanding how cultural dimensions are reflected in language. I am interested in creating culturally-aware explanation methods for multilingual models as well as using large language models as a tool to empirically investigate cultural differences. My work is suported by the NSF Graduate Research Fellowship Program. 
 
