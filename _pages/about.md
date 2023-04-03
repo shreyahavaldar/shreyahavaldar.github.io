@@ -11,7 +11,7 @@ Hello!! I'm Shreya, a second year PhD student at the University of Pennsylvania,
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
-My work is focused on explainability within multilingual NLP and understanding how cultural dimensions are reflected in language. I am interested in creating culturally-aware explanation methods for multilingual models as well as using large language models as a tool to empirically investigate cultural differences. My work is suported by the NSF Graduate Research Fellowship Program. 
+My work is focused on explainability within multilingual NLP and understanding how cultural dimensions are reflected in language. I am interested in creating culturally-aware explanation methods for multilingual models as well as using large language models as a tool to empirically investigate cultural differences. My research is supported by the NSF Graduate Research Fellowship Program. 
 
 I am currently working on: 
  - Explaining multicultural differences in politeness by analyzing conversations between Wikipedia editors from different countries
