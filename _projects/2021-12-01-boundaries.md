@@ -5,5 +5,5 @@ permalink: /publications/boundaries
 date: 2021-12-01
 venue: 'Course Project: CIS 5200'
 paperurl: /files/boundaries.pdf
-citation: 'Cutler, J., Dugan, L., <b>Havaldar, S.</b>, Stein, A. (2021)'
+citation: 'Joe Cutler*, Liam Dugan*, Shreya Havaldar*, Adam Stein* (2021)'
 ---
