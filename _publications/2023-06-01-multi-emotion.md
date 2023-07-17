@@ -3,7 +3,7 @@ title: "Multilingual Language Models are not Multicultural: A Case Study in Emot
 collection: publications
 permalink: /publications/multi-emotion
 date: 2023-07-01
-venue: 'WASSA @ ACL | 🏆 Best Paper Award 🏆'
+venue: 'WASSA @ ACL'
 paperurl: 'https://arxiv.org/abs/2307.01370'
-citation: '<b>Shreya Havaldar</b>, Sunny Rai, Bhumika Singhal, Langchen Liu, Sharath Chandra Guntuku, Lyle Ungar (2023)'
+citation: '<b>Shreya Havaldar</b>, Sunny Rai, Bhumika Singhal, Langchen Liu, Sharath Chandra Guntuku, Lyle Ungar (2023) | 🏆 Best Paper Award 🏆'
 ---
