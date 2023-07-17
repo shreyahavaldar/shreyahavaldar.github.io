@@ -6,5 +6,5 @@ date: 2023-07-01
 venue: 'WASSA @ ACL'
 paperurl: 'https://arxiv.org/abs/2307.01370'
 citation: '<b>Shreya Havaldar</b>, Sunny Rai, Bhumika Singhal, Langchen Liu, Sharath Chandra Guntuku, Lyle Ungar (2023)'
-award: '🏆 Best Paper Award 🏆'
+award: '| 🏆 Best Paper Award 🏆'
 ---

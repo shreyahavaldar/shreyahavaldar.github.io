@@ -46,7 +46,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} | {{ post.award | default = ""}} </p>
+          <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} {{ post.award | default = ""}} </p>
         {% elsif post.collection == 'projects' %}
           <p class="page_venue"><i>{{ post.venue }}</i> | {{ post.date | default: "1900-01-01" | date: "%B %Y" }} </p>
         {% elsif post.collection == 'talks' %}
