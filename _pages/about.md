@@ -17,9 +17,9 @@ I am currently working on: (1) Analyzing how Twitter reflects the differences in
 
 Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the NSF GRFP, or the PhD application process!
 
+------
 
-
-### Recent News
+## Recent News
 - [Oct 2023] Our paper - *Comparing Styles across Languages* - was accepted to EMNLP! 
 - [Sep 2023] Our paper - [*Faithful Chain-of-Thought Reasoning*](https://arxiv.org/abs/2301.13379) - was accepted to AACL!
 - [Aug 2023] New preprint! [*Human-Centered Metrics for Dialog System Evaluation*](https://arxiv.org/abs/2305.14757)
