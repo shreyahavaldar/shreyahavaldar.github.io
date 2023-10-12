@@ -1,7 +1,7 @@
 ---
 title: "Faithful Chain-of-Thought Reasoning"
 collection: publications
-permalink: /publications/faithfulcot
+permalink: /publications/faithful-cot
 date: 2023-09-01
 venue: 'to appear in AACL'
 paperurl: 'https://arxiv.org/abs/2301.13379'
