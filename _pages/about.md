@@ -21,11 +21,12 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
+- [Nov 2023] 🎉 We won the Area Chair Award at AACL for Interpretability and Analysis of Models for NLP!! 
 - [Oct 2023] 📝 Our paper - [*Comparing Styles across Languages*](https://arxiv.org/abs/2310.07135) - was accepted to EMNLP
 - [Sep 2023] 📝 Our paper - [*Faithful Chain-of-Thought Reasoning*](https://arxiv.org/abs/2301.13379) - was accepted to AACL
 - [Aug 2023] 📝 New preprint - [*Human-Centered Metrics for Dialog System Evaluation*](https://arxiv.org/abs/2305.14757)
 - [Jul 2023] 🌎 I am attending the 9th International Conference on Computational Social Science (IC2S2) in Copenhagen to present our work on [Measuring Regional Variation in Culture Through Embedding-Based Lexica](/files/IC2S2_2023.pdf)
-- [Jul 2023] 🎉 We won best paper at WASSA!!! A huge shoutout to my wonderful collaborators 
+- [Jul 2023] 🎉 We won best paper at WASSA!! A huge shoutout to my wonderful collaborators 
 - [Jul 2023] 🌎 I am attending ACL in Toronto to present our work on [Anglocentric bias in LMs](/files/WASSA_2023.pdf)
 - [May 2023] 📝 Our paper - [*Multilingual Language Models are not Multicultural: A Case Study in Emotion*](https://aclanthology.org/2023.wassa-1.19/) - was accepted to the 13th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA)
 - [Mar 2023] 🎉 I am beyond honored to recieve the NSF Graduate Research Fellowship! 
