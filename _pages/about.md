@@ -21,7 +21,7 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
-- [Nov 2023] 🎉 We won the Area Chair Award at AACL for Interpretability and Analysis of Models for NLP!! 
+- [Nov 2023] 🎉 We won the Area Chair Award (Interpretability and Analysis of Models for NLP) at AACL!! 
 - [Oct 2023] 📝 Our paper - [*Comparing Styles across Languages*](https://arxiv.org/abs/2310.07135) - was accepted to EMNLP
 - [Sep 2023] 📝 Our paper - [*Faithful Chain-of-Thought Reasoning*](https://arxiv.org/abs/2301.13379) - was accepted to AACL
 - [Aug 2023] 📝 New preprint - [*Human-Centered Metrics for Dialog System Evaluation*](https://arxiv.org/abs/2305.14757)
