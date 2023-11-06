@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Publications <sub><sup><sub>*(\*indicates equal contribution)*</sup></sub></sub>"
 permalink: /publications/
 author_profile: true
 ---
@@ -19,9 +19,8 @@ author_profile: true
 
 <br>
 
-# Projects
+# Projects <sub><sup><sub>*(\*indicates equal contribution)*</sup></sub></sub>
 
-###### (* indicates equal contribution)
 
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
