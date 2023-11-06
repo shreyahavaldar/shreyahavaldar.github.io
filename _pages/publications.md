@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-###### *(\* indicates equal contribution)*
+<!-- ###### *(\* indicates equal contribution)* -->
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
@@ -21,7 +21,7 @@ author_profile: true
 
 # Projects
 
-###### *(\* indicates equal contribution)*
+<!-- ###### *(\* indicates equal contribution)* -->
 
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
