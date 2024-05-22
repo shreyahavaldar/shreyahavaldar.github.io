@@ -21,7 +21,7 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
-- [Feb 2024] 📚 Excited to intern at [Google Research](https://research.google/) this summer, working on social understanding in LLMs!
+- [Feb 2024] 📚 Excited to intern at [Google Deepmind](https://deepmind.google/) this summer, working on social understanding in LLMs!
 - [Dec 2023] 🌎 I'll be attending EMNLP in Singapore and NeurIPS in New Orleans! Come say hi and chat about [Cross-cultural style comparison](/files/EMNLP_poster.pdf) or [Visual topic modeling](/files/XAI_poster.pdf)
 - [Nov 2023] 🎉 We won the Area Chair Award (Interpretability and Analysis of Models for NLP) at AACL!! 
 - [Oct 2023] 📝 Our paper - [*Comparing Styles across Languages*](https://arxiv.org/abs/2310.07135) - was accepted to EMNLP
