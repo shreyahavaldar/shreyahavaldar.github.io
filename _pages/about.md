@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a third year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). 
+Hello!! I'm Shreya, a fourth year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). 
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
@@ -23,7 +23,7 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
--  [Oct 2024] 📝 New preprint - [*The FIX Benchmark: Extracting Features Interpretable to eXperts*](https://arxiv.org/abs/2409.13684)
+- [Oct 2024] 📝 New preprint - [*The FIX Benchmark: Extracting Features Interpretable to eXperts*](https://arxiv.org/abs/2409.13684)
 - [June 2024] 🎉 I'll be attending NAACL to talk about [Measuring cultural variation](/files/NAACL_slides.pdf). Come say hi!
 - [March 2024] 🎉 Our paper - [*Building Knowledge-Guided Lexica to Model Cultural Variation*](https://arxiv.org/abs/2406.11622) was selected for an oral at NAACL!
 - [Feb 2024] 📚 Excited to intern at [Google Deepmind](https://deepmind.google/) this summer, working on social understanding in LLMs!
