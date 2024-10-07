@@ -11,9 +11,11 @@ Hello!! I'm Shreya, a third year PhD student at the University of Pennsylvania, 
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
-I specialize in culturally-aware multilingual NLP, analyzing how culture influences linguistic styles (emotion, politeness, etc.), creating explanation methods to derive cultural insight from black-box models, and mitigating Anglocentric bias in modern LMs. My research is supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
+I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LMs. I am broadly interested in helping LLMs understand subjective contsructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms.
 
-I am currently working on: (1) Quantifying how translation fails to preserve components of linguistic style, (2) finding domain-aligned features for ML explanations, and (3) benchmarking cultural awareness in LLMs.
+My research is supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
+
+I am currently working on: (1) Quantifying how translation fails to preserve components of linguistic style, (2) subjectivity in implication understanding, and (3) benchmarking cultural awareness in LLMs.
 
 Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the NSF GRFP, or the PhD application process!
 
@@ -21,6 +23,9 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
+-  [Oct 2024] 📝 New preprint - [*The FIX Benchmark: Extracting Features Interpretable to eXperts*](https://arxiv.org/abs/2409.13684)
+- [June 2024] 🎉 I'll be attending NAACL to talk about [Measuring cultural variation](/files/NAACL_slides.pdf). Come say hi!
+- [March 2024] 🎉 Our paper - [*Building Knowledge-Guided Lexica to Model Cultural Variation*](https://arxiv.org/abs/2406.11622) was selected for an oral at NAACL!
 - [Feb 2024] 📚 Excited to intern at [Google Deepmind](https://deepmind.google/) this summer, working on social understanding in LLMs!
 - [Dec 2023] 🌎 I'll be attending EMNLP in Singapore and NeurIPS in New Orleans! Come say hi and chat about [Cross-cultural style comparison](/files/EMNLP_poster.pdf) or [Visual topic modeling](/files/XAI_poster.pdf)
 - [Nov 2023] 🎉 We won the Area Chair Award (Interpretability and Analysis of Models for NLP) at AACL!! 
