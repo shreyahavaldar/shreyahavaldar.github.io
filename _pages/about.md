@@ -11,11 +11,11 @@ Hello!! I'm Shreya, a fourth year PhD student at the University of Pennsylvania,
 
 Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/) (formerly the Computational Social Science Lab).
 
-I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LMs. I am broadly interested in helping LLMs understand subjective contsructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms.
+I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LLMs. I am broadly interested in helping LLMs understand subjective contstructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms.
+
+I am currently working on: (1) Quantifying how translation fails to preserve components of linguistic style, (2) Subjectivity in implication understanding, and (3) Benchmarking cultural awareness in LLMs.
 
 My research is supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). 
-
-I am currently working on: (1) Quantifying how translation fails to preserve components of linguistic style, (2) subjectivity in implication understanding, and (3) benchmarking cultural awareness in LLMs.
 
 Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the NSF GRFP, or the PhD application process!
 
