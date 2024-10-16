@@ -24,7 +24,7 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 
 ### Recent News!!
 - [Oct 2024] 📝 New preprint - [*The FIX Benchmark: Extracting Features Interpretable to eXperts*](https://arxiv.org/abs/2409.13684)
-- [June 2024] 🎉 I'll be attending NAACL to talk about [Measuring cultural variation](/files/NAACL_slides.pdf). Come say hi!
+- [June 2024] 🌎 I'll be attending NAACL to talk about [Measuring cultural variation](/files/NAACL_slides.pdf). Come say hi!
 - [March 2024] 🎉 Our paper - [*Building Knowledge-Guided Lexica to Model Cultural Variation*](https://arxiv.org/abs/2406.11622) was selected for an oral at NAACL!
 - [Feb 2024] 📚 Excited to intern at [Google Deepmind](https://deepmind.google/) this summer, working on social understanding in LLMs!
 - [Dec 2023] 🌎 I'll be attending EMNLP in Singapore and NeurIPS in New Orleans! Come say hi and chat about [Cross-cultural style comparison](/files/EMNLP_poster.pdf) or [Visual topic modeling](/files/XAI_poster.pdf)
