@@ -13,6 +13,13 @@ redirect_from:
 {% endfor %}
 
 <br>
+# Posters
+- [*Towards Style Alignment in Cross-Cultural Translation*](\files\style_alignment.pdf): ACL 2025
+- [*Entailed Between the Lines: Incorporating Implication into NLI*](\files\INLI.pdf): ACL 2025
+- [*Culturally-Adaptive Conversations: A Benchmark Dataset for LLMs*](\files\IC2S2_2025_benchmark.pdf): IC2S2 2025
+- [*Comparing Styles Across Languages*](\files\EMNLP_poster.pdf): EMNLP 2023
+
+<br>
 # Teaching
 
 -   TA for UPenn CIS 5300: Computational Linguistics (Fall 2022)

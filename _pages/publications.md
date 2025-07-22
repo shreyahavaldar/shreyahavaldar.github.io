@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+🌸<em> Please see my Google Scholar for a complete list </em>🌸
 <!-- ###### *(\* indicates equal contribution)* -->
 
 {% if author.googlescholar %}
@@ -19,7 +20,7 @@ author_profile: true
 
 <br>
 
-# Projects
+# Preprints
 
 <!-- ###### *(\* indicates equal contribution)* -->
 
