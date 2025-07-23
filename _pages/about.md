@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a fourth year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/).
+Hello!! I'm Shreya, a 4th year PhD student at the University of Pennsylvania working with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/).
 
 I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LLMs. I am broadly interested in helping LLMs understand subjective constructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms. 
 
 I am currently working on: (1) Improving and benchmarking the cultural awareness of LLMs, (2) Aligning LLM evaluation with domain-expert intuition, and (3) My thesis!
 
-Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the NSF GRFP, or the PhD application process!
+Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!
 
 
 ------
