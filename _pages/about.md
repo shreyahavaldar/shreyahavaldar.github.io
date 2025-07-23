@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a fourth year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/) and the [World Well Being Project](https://wwbp.org/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/). Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science and Applied Mathematics. During my time at USC, I worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/).
+Hello!! I'm Shreya, a fourth year PhD student at the University of Pennsylvania, where I currently work with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/).
 
 I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LLMs. I am broadly interested in helping LLMs understand subjective constructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms. 
 
