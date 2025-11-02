@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello!! I'm Shreya, a 4th year PhD student at the University of Pennsylvania working with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended the University of Southern California (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/).
+Hello!! I'm Shreya, a 5th year PhD student at the University of Pennsylvania working with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended USC (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/). I've also interned at Google Deepmind and Spotify Research.
 
-I specialize in cross-cultural NLP, focusing on quantifying and mitigating Anglocentric bias in modern LLMs. I am broadly interested in helping LLMs understand subjective constructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms. 
+I research sociotechnical alignment of LLMs, focusing on quantifying and mitigating cultural bias. I am broadly interested in helping LLMs understand subjective constructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms. 
 
-I am currently working on: (1) Improving and benchmarking the cultural awareness of LLMs, (2) Aligning LLM evaluation with domain-expert intuition, and (3) My thesis!
+I am currently working on: (1) Techniques to improve cultural awareness of LLM generations, (2) Aligning LLM evaluation with domain-expert intuition, and (3) My thesis!
 
 Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!
 
@@ -19,6 +19,8 @@ Outside of academia, I like to cook, run, and ask strangers if I can pet their d
 ------
 
 ### Recent News!!
+- [November 2025] 🌎 Attending EMNLP in Suzhou to chat about [a new benchmark for culturally-aware agents](https://arxiv.org/abs/2510.11563) in the HCI + NLP workshop 
+- [October 2025] 🎉 Named one of [MIT's Rising Stars in EECS](https://risingstars-eecs.mit.edu/)
 - [July 2025] 🌎 I'll be attending ACL in Vienna to present our papers [*Style Alignment in Cross-Cultural Translation*](https://arxiv.org/abs/2507.00216) and [*Incorporating Implication into NLI*](https://arxiv.org/abs/2501.07719)
 - [July 2025] 🌎 I'll be attending IC2S2 in Norrköping to talk about [*Cultural Knowledge Injection*](/files/IC2S2_2025_injection.pdf) and [*Benchmarking Conversational Ability of LLMs*](/files/IC2S2_2025_benchmark.pdf)
 - [June 2025] 📝 Our paper - [*The FIX Benchmark: Extracting Features Interpretable to eXperts*](https://arxiv.org/abs/2409.13684) was accepted to DMLR
