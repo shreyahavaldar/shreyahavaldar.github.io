@@ -9,11 +9,11 @@ redirect_from:
 
 Hello!! I'm Shreya, a 5th year PhD student at the University of Pennsylvania working with [Penn NLP](https://nlp.cis.upenn.edu/). I am advised by [Lyle Ungar](https://www.cis.upenn.edu/~ungar/) and [Eric Wong](https://www.cis.upenn.edu/~exwong/). My research is supported by the [NSF GRFP](https://www.nsfgrfp.org/). Previously, I attended USC (Fight On!!) where I received a B.S. in Computer Science & Applied Mathematics and worked with Morteza Dehghani at the [Morality and Language Lab](https://www.mola-lab.org/). I've also interned at Google Deepmind and Spotify Research.
 
-I research sociotechnical alignment of LLMs, focusing on quantifying and mitigating cultural bias. I am broadly interested in helping LLMs understand subjective constructs that vary across people and cultures, such as linguistic style (e.g. emotion, politeness), implied language, and social norms. 
+I research sociotechnical alignment of LLMs, with a focus on evaluating and mitigating cultural bias. My work looks at how LLMs handle context-dependent phenomena such as implied meaning and social norms, and I have developed frameworks to assess how they represent subjective concepts like politeness, emotion, and individualism. I have also built methods to improve model outputs, including preserving speaker intent in translation and adapting advice to multicultural users.
 
-I am currently working on: (1) Techniques to improve cultural awareness of LLM generations, (2) Aligning LLM evaluation with domain-expert intuition, and (3) My thesis!
+> I am currently on the postdoc market! I'd like to work on problems related to pluralistic evaluation and alignment with a focus on sociocultural adaptation. 
 
-Outside of academia, I like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!
+Beyond my research, I care deeply about representation and accessibility in ML: I founded the UPenn chapter of Women in ML (WiML) and am teaching a new undergraduate course on designing LLM agents for students who are beginners in CS. I also like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!
 
 
 ------
