@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2025-05-01-grounding
 venue: "Invited Talk @ UPenn's ML Seminar"
-paperurl: /files/Research_Qaulifier.pdf
+paperurl: /files/Research_Qualifier.pdf
 date: 2025-05-01
 location: "Philadelphia"
 ---
