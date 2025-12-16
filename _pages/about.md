@@ -11,7 +11,7 @@ Hello!! I'm Shreya, a 5th year PhD student at the University of Pennsylvania wor
 
 I research sociotechnical alignment of LLMs, with a focus on evaluating and mitigating cultural bias. My work looks at how LLMs handle context-dependent phenomena such as implied meaning and social norms, and I have developed frameworks to assess how they represent subjective concepts like politeness, emotion, and individualism. I have also built methods to improve model outputs, including preserving speaker intent in translation and adapting advice to multicultural users.
 
-> ### I'm currently on the postdoc market! I'd like to work on problems related to pluralistic evaluation and alignment with a focus on sociocultural adaptation. 
+> ### I'm currently on the postdoc market! I'm interested in pluralistic alignment in LLMs. 
 
 Beyond my research, I care deeply about representation and accessibility in ML. I founded the UPenn chapter of Women in ML (WiML) in 2023, and I'm currently creating and teaching a new course on designing LLM agents for Penn undergrads who are beginners in CS. 
 
