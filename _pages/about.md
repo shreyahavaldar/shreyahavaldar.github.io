@@ -13,7 +13,7 @@ I research sociotechnical alignment of LLMs, with a focus on evaluating and miti
 
 > ### I'm currently on the postdoc market! I'm interested in pluralistic alignment in LLMs. 
 
-Beyond my research, I care deeply about representation and accessibility in ML. I founded the UPenn chapter of Women in ML (WiML) in 2023, and I'm currently creating and teaching a new course on designing LLM agents for Penn undergrads who are beginners in CS. 
+Beyond my research, I care deeply about representation and accessibility in ML. I founded the UPenn chapter of Women in ML (WiML) in 2023, and I’m currently teaching [a new course on designing LLM agents](https://designing-agents-upenn.github.io/) for undergrads at Penn!
 
 I also like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!
 
