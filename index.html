@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shreya Havaldar</title>
+<meta name="description" content="Shreya Havaldar is a senior researcher at Bloomberg and adjunct faculty at Columbia University, researching sociotechnical alignment of LLMs, with a focus on evaluating and mitigating cultural bias.">
+<meta name="author" content="Shreya Havaldar">
+<link rel="icon" href="images/leaf.png">
+<meta property="og:title" content="Shreya Havaldar">
+<meta property="og:description" content="Senior researcher at Bloomberg and adjunct faculty at Columbia, researching sociotechnical alignment of LLMs and cultural bias.">
+<meta property="og:image" content="images/shreya.jpeg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:ital,wght@0,400;0,450;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<script>
+/* Applied before first paint so the saved theme never flashes. Default: light. */
+(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();
+</script>
+<style>
+/* Cream ground; dark green = links, sage = structure, terracotta = accent. */
+:root{
+  --bg:#fbf8f3;         /* cream                        */
+  --text:#22201c;       /* warm charcoal                */
+  --muted:#636a62;      /* green-gray secondary         */
+  --heading:#3b3730;    /* section headers              */
+  --faint:#7c8f78;      /* sage: dates, venues          */
+  --rule:#d9e1d2;       /* light sage: hairlines        */
+  --link:#0c6640;       /* dark green: every hyperlink  */
+  --link-line:#9fc3af;  /* link underline               */
+  --accent:#9c4a2f;     /* terracotta: hover, awards    */
+  --serif:"Newsreader",Iowan Old Style,Palatino,Georgia,serif;
+  --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  color-scheme:light;
+}
+/* Opt-in only, via the toggle — the OS setting is deliberately not followed. */
+[data-theme="dark"]{
+  --bg:#161a17;
+  --text:#e9e6dd;
+  --muted:#9aa89b;
+  --heading:#cfcabd;
+  --faint:#7d8d7c;
+  --rule:#2c342d;
+  --link:#8fc4a5;
+  --link-line:#3f5a4a;
+  --accent:#e0906b;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--sans);
+  font-size:15.5px;
+  line-height:1.65;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:880px;margin:0 auto;padding:clamp(3rem,9vw,6rem) clamp(1.35rem,5vw,2rem) 5rem}
+a{color:var(--link);text-decoration:none;background-image:linear-gradient(var(--link-line),var(--link-line));background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;transition:color .16s ease,background-image .16s ease}
+a:hover{color:var(--accent);background-image:linear-gradient(var(--accent),var(--accent))}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* ---------- theme toggle ---------- */
+/* Tracks the right edge of the 880px content column instead of the viewport
+   corner, so it holds a constant offset from the text at every window width.
+   The 440px below is half of .wrap max-width — keep them in sync.
+   Falls back to the corner once the column stops being centered. */
+.theme{
+  position:fixed;
+  top:1.15rem;
+  right:max(1.15rem, calc(50vw - 440px - 3.4rem));
+  z-index:10;
+  width:34px;height:34px;padding:0;margin:0;
+  display:flex;align-items:center;justify-content:center;
+  line-height:0;
+  border:1px solid var(--faint);border-radius:50%;
+  background:var(--bg);color:var(--muted);cursor:pointer;
+  transition:color .16s ease,border-color .16s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.theme:hover{color:var(--accent);border-color:var(--accent)}
+.theme:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.theme svg{width:16px;height:16px;flex:none;display:block}
+.theme .sun{display:none}
+[data-theme="dark"] .theme .sun{display:block}
+[data-theme="dark"] .theme .moon{display:none}
+
+/* ---------- header ---------- */
+header{display:flex;gap:clamp(1.5rem,4.5vw,2.75rem);align-items:center;margin-bottom:4rem}
+/* min-width:0 lets the text block shrink; flex items default to min-width:auto,
+   which would let a long unbreakable string push past the column edge. */
+header > div{min-width:0}
+.portrait{width:176px;height:176px;flex:none;border-radius:50%;object-fit:cover;filter:saturate(.96)}
+h1{font-family:var(--serif);font-size:clamp(2.1rem,6.5vw,2.7rem);font-weight:500;letter-spacing:-.015em;line-height:1.08;margin:0 0 .6rem}
+.role{color:var(--muted);font-size:.97rem;margin:0 0 1.15rem;line-height:1.7}
+.email{font-style:italic}
+cite{font-style:italic}
+/* Icon-only: each <a> carries an aria-label, since no visible text names it.
+   Negative left margin keeps the first icon's padding from indenting the row. */
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .5rem;margin-left:-7px}
+.links a{display:inline-flex;align-items:center;justify-content:center;
+  width:38px;height:38px;padding:7px;border-radius:6px;line-height:0;
+  color:var(--link);background:none}
+.links a:hover{color:var(--accent)}
+.links svg{width:100%;height:100%;flex:none;fill:currentColor;display:block}
+/* The Scholar cap is a wide open shape and reads larger than the boxy marks. */
+.links a.ico-scholar{padding:8px}
+/* CV is last in the row and a little larger; align-items:center keeps the
+   taller box optically in line with the 38px icons beside it. */
+.links a.ico-cv{width:40px;height:40px;padding:7px}
+/* Hollow treatment for CV only: outline page, no fill, text in the same green. */
+.links .cv-icon{fill:none}
+.links .cv-icon path{stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+.links .cv-text{fill:currentColor;font-family:var(--sans);font-weight:600;letter-spacing:-.02em}
+
+/* ---------- sections ---------- */
+section{margin-bottom:3.4rem}
+h2{
+  font-family:var(--sans);
+  font-size:.95rem;
+  font-weight:600;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--heading);
+  margin:0 0 1.6rem;
+  padding-bottom:.7rem;
+  border-bottom:1px solid var(--rule);
+}
+p{margin:0 0 1.05rem}
+p:last-child{margin-bottom:0}
+/* Prose runs the full column width. Long measures need more leading so the eye
+   can find the start of the next line, hence the bump over the 1.65 default. */
+#about p{line-height:1.78}
+
+/* ---------- news ---------- */
+.news{list-style:none;margin:0;padding:0}
+.news li{display:flex;gap:1.15rem;padding:.6rem 0;font-size:.95rem;line-height:1.6}
+.news li + li{border-top:1px solid var(--rule)}
+.date{flex:none;width:6.4rem;color:var(--faint);font-size:.78rem;letter-spacing:.04em;font-weight:500;padding-top:.28rem;text-transform:uppercase}
+/* 🌎 conference travel · 🎉 award/milestone · 📝 paper · 📚 invited talk, new role
+   Hanging indent so wrapped lines clear the emoji instead of running under it. */
+.news .body{padding-left:1.75rem;text-indent:-1.75rem}
+.news .tag{display:inline-block;width:1.75rem;text-indent:0;font-size:.9rem;line-height:1}
+.news li.extra{display:none}
+.news.open li.extra{display:flex}
+.more{
+  margin-top:1.1rem;background:none;border:0;padding:0;cursor:pointer;
+  font-family:var(--sans);font-size:.78rem;letter-spacing:.09em;text-transform:uppercase;
+  font-weight:500;font-style:italic;color:var(--link);border-bottom:1px solid var(--link-line);
+}
+.more:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+/* ---------- publications ---------- */
+.pubs{list-style:none;margin:0;padding:0}
+.pubs li{padding:1.05rem 0}
+.pubs li + li{border-top:1px solid var(--rule)}
+.title{font-family:var(--serif);font-size:1.14rem;font-weight:500;line-height:1.35;letter-spacing:-.005em;display:inline-block;margin-bottom:.3rem}
+.authors{color:var(--muted);font-size:.88rem;line-height:1.55;margin-bottom:.28rem}
+.authors .me{color:var(--text);font-weight:500}
+.venue{font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);font-weight:500}
+.award{color:var(--accent);font-weight:600}
+h2 .eqnote{text-transform:none;letter-spacing:0;font-weight:400;font-style:italic;font-size:.79rem;color:var(--faint);margin-left:.45rem}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--rule);padding-top:1.6rem;color:var(--faint);font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem}
+footer a{color:var(--faint);background:none;border-bottom:1px solid transparent}
+footer a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+
+@media (max-width:560px){
+  header{flex-direction:column;align-items:flex-start;gap:1.6rem;margin-bottom:3.2rem}
+  .portrait{width:138px;height:138px}
+  .news li{flex-direction:column;gap:.2rem}
+  .date{width:auto;padding-top:0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<button class="theme" id="themeToggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+  <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+  <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.4M12 19.6V22M2 12h2.4M19.6 12H22M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M19.1 4.9l-1.7 1.7M6.6 17.4l-1.7 1.7"/></svg>
+</button>
+
+<div class="wrap">
+
+<header>
+  <img class="portrait" src="images/shreya.jpeg" alt="Shreya Havaldar">
+  <div>
+    <h1>Shreya Havaldar</h1>
+    <p class="role">Senior Researcher @ Bloomberg<br>Adjunct Faculty @ Columbia University</p>
+    <nav class="links" aria-label="Profiles and contact">
+      <a class="ico-cv" href="files/CV_mar_2026.pdf" aria-label="Curriculum vitae (PDF)" title="CV">
+        <svg class="cv-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8z"/><text class="cv-text" x="12" y="12" text-anchor="middle" dominant-baseline="central" font-size="8.6">CV</text></svg></a>
+      <a href="mailto:shreyahavaldar@gmail.com" aria-label="Email Shreya Havaldar" title="shreyahavaldar@gmail.com">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 6.4V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.4l-10 5.63zM2 8.69V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8.69l-9.51 5.35a1 1 0 0 1-.98 0z"/></svg></a>
+      <a class="ico-scholar" href="https://scholar.google.com/citations?user=h2tzi9MAAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg></a>
+      <a href="https://x.com/shreyahavaldar" aria-label="X (formerly Twitter)" title="X">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+      <a href="https://www.linkedin.com/in/shreya-havaldar-0a2664155" aria-label="LinkedIn" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    </nav>
+  </div>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Hello!! I'm Shreya, a senior researcher at Bloomberg. I'm also an adjunct professor at Columbia University, where I teach COMS 4995-15: <a href="https://designing-agents.github.io/">Designing LLM Agents</a>.</p>
+  <p>I recently finished my PhD at the University of Pennsylvania, where I worked with <a href="https://nlp.cis.upenn.edu/">Penn NLP</a>, advised by <a href="https://www.cis.upenn.edu/~ungar/">Lyle Ungar</a> and <a href="https://www.cis.upenn.edu/~exwong/">Eric Wong</a>. My PhD research was supported by the <a href="https://www.nsfgrfp.org/">NSF GRFP</a>. Before that I attended USC (Fight On!!), where I received a B.S. in Computer Science &amp; Applied Mathematics and worked with Morteza Dehghani at the <a href="https://www.mola-lab.org/">Morality and Language Lab</a>. I&rsquo;ve also interned at <a href="https://deepmind.google/">Google DeepMind</a> and <a href="https://research.atspotify.com/">Spotify Research</a>.</p>
+  <p>I research sociotechnical alignment of LLMs, with a focus on evaluating and mitigating cultural bias. My work looks at how LLMs handle context-dependent phenomena such as implied meaning and social norms, and I have developed frameworks to assess how they represent subjective concepts like politeness, emotion, and individualism. I have also built methods to improve model outputs, including preserving speaker intent in translation and adapting advice to multicultural users.</p>
+  <p>Beyond my research, I care deeply about representation and accessibility in ML. I founded the UPenn chapter of Women in ML (WiML) in 2023, and taught CIS-1990, a mini-course on AI agents at UPenn in 2026.</p>
+  <p>I also like to cook, run, and ask strangers if I can pet their dogs. Please reach out if you want to chat about my research, the GRFP, or the PhD application process!</p>
+</section>
+
+<section id="news">
+  <h2>News</h2>
+  <ul class="news" id="newsList">
+    <li><span class="date">May 2026</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Defended my thesis!! <cite>Towards Explaining, Evaluating, and Mitigating Cultural Bias in Large Language Models</cite>.</span></li>
+    <li><span class="date">Apr 2026</span><span class="body"><span class="tag" aria-hidden="true">📚</span>Invited talk at Columbia&rsquo;s NLP Seminar.</span></li>
+    <li><span class="date">Mar 2026</span><span class="body"><span class="tag" aria-hidden="true">📚</span>Invited talk at Vanderbilt&rsquo;s College of Connected Computing.</span></li>
+    <li><span class="date">Nov 2025</span><span class="body"><span class="tag" aria-hidden="true">🌎</span>Attending EMNLP in Suzhou to chat about <a href="https://aclanthology.org/2025.hcinlp-1.18/">a new benchmark for culturally-aware agents</a>.</span></li>
+    <li><span class="date">Oct 2025</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Named one of <a href="https://risingstars-eecs.mit.edu/">MIT&rsquo;s Rising Stars in EECS</a>.</span></li>
+    <li class="extra"><span class="date">Jul 2025</span><span class="body"><span class="tag" aria-hidden="true">🌎</span>Attending ACL in Vienna to present <a href="https://aclanthology.org/2025.acl-long.1550/">Style Alignment in Cross-Cultural Translation</a> and <a href="https://aclanthology.org/2025.acl-long.1552/">Incorporating Implication into NLI</a>.</span></li>
+    <li class="extra"><span class="date">Jul 2025</span><span class="body"><span class="tag" aria-hidden="true">🌎</span>Attending IC2S2 in Norrk&ouml;ping to talk about cultural knowledge injection and benchmarking multi-turn conversations.</span></li>
+    <li class="extra"><span class="date">Jun 2025</span><span class="body"><span class="tag" aria-hidden="true">📝</span>Our paper <a href="https://arxiv.org/abs/2409.13684">The FIX Benchmark: Extracting Features Interpretable to eXperts</a> was accepted to DMLR.</span></li>
+    <li class="extra"><span class="date">Jun 2025</span><span class="body"><span class="tag" aria-hidden="true">📚</span>Excited to intern at Spotify Research this summer, working on podcast understanding and evaluation!</span></li>
+    <li class="extra"><span class="date">May 2025</span><span class="body"><span class="tag" aria-hidden="true">📝</span>New preprints &mdash; <a href="https://aclanthology.org/2025.emnlp-main.382/">Probabilistic Soundness Guarantees in LLM Reasoning Chains</a> and <a href="https://aclanthology.org/2025.emnlp-main.1270/">Adaptively Profiling Models with Task Elicitation</a>.</span></li>
+    <li class="extra"><span class="date">Mar 2024</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Our paper <a href="https://aclanthology.org/2024.naacl-long.12/">Building Knowledge-Guided Lexica to Model Cultural Variation</a> was selected for an oral at NAACL!</span></li>
+    <li class="extra"><span class="date">Feb 2024</span><span class="body"><span class="tag" aria-hidden="true">📚</span>Excited to intern at Google DeepMind this summer, working on social understanding in LLMs!</span></li>
+    <li class="extra"><span class="date">Dec 2023</span><span class="body"><span class="tag" aria-hidden="true">🌎</span>Attending EMNLP in Singapore and NeurIPS in New Orleans &mdash; come say hi and chat about <a href="https://aclanthology.org/2023.emnlp-main.419/">Explainable Comparison of Politeness across Languages</a>.</span></li>
+    <li class="extra"><span class="date">Sep 2023</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Our paper <a href="https://aclanthology.org/2023.ijcnlp-main.20/">Faithful Chain-of-Thought Reasoning</a> won the Area Chair Award (Interpretability and Analysis of Models for NLP) at AACL!</span></li>
+    <li class="extra"><span class="date">Aug 2023</span><span class="body"><span class="tag" aria-hidden="true">📝</span>New preprint &mdash; <a href="https://arxiv.org/abs/2305.14757">Human-Centered Metrics for Dialog System Evaluation</a>.</span></li>
+    <li class="extra"><span class="date">Jul 2023</span><span class="body"><span class="tag" aria-hidden="true">🌎</span>Attending IC2S2 in Copenhagen to talk about Measuring Regional Variation in Culture Through Embedding-Based Lexica.</span></li>
+    <li class="extra"><span class="date">May 2023</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Our paper <a href="https://aclanthology.org/2023.wassa-1.19/">Multilingual Language Models are not Multicultural: A Case Study in Emotion</a> won best paper at WASSA @ ACL!</span></li>
+    <li class="extra"><span class="date">Mar 2023</span><span class="body"><span class="tag" aria-hidden="true">🎉</span>Honored to receive the NSF Graduate Research Fellowship!</span></li>
+  </ul>
+  <button class="more" id="newsToggle" aria-expanded="false" aria-controls="newsList" hidden>Show earlier news</button>
+</section>
+
+<section id="publications">
+  <h2>Selected Publications <span class="eqnote">(* indicates equal contribution)</span></h2>
+  <ul class="pubs">
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.emnlp-main.1270/">Adaptively Profiling Models with Task Elicitation</a>
+      <div class="authors">Davis Brown, Prithvi Balehannina, Helen Jin, <span class="me">Shreya Havaldar</span>, Hamed Hassani, Eric Wong</div>
+      <div class="venue">EMNLP &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.emnlp-main.382/">Probabilistic Soundness Guarantees in LLM Reasoning Chains</a>
+      <div class="authors">Weiqiu You, Anton Xue, <span class="me">Shreya Havaldar</span>, Delip Rao, Helen Jin, Chris Callison-Burch, Eric Wong</div>
+      <div class="venue">EMNLP &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.hcinlp-1.18/">Culturally-Aware Conversations: A Framework &amp; Benchmark for LLMs</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>, Sunny Rai, Young-Min Cho, Lyle Ungar</div>
+      <div class="venue">HCI+NLP @ EMNLP &middot; 2025 &middot; <span class="award">Oral</span></div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.acl-long.1552/">Entailed Between the Lines: Incorporating Implication into NLI</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>, Hamidreza Alvari, John Palowitch, Mohammad Javad Hosseini, Senaka Buthpitiya, Alex Fabrikant</div>
+      <div class="venue">ACL &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.acl-long.1550/">Towards Style Alignment in Cross-Cultural Translation</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>*, Adam Stein*, Eric Wong, Lyle Ungar</div>
+      <div class="venue">ACL &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://arxiv.org/abs/2409.13684">The FIX Benchmark: Extracting Features Interpretable to eXperts</a>
+      <div class="authors">Helen Jin*, <span class="me">Shreya Havaldar</span>*, Chaehyeon Kim*, Anton Xue*, Weiqiu You*, Helen Qu, Marco Gatti, Daniel A. Hashimoto, Bhuvnesh Jain, Amin Madani, Masao Sako, Lyle Ungar, Eric Wong</div>
+      <div class="venue">DMLR &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2025.naacl-long.568/">Social Norms in Cinema: A Cross-Cultural Analysis of Shame, Pride and Prejudice</a>
+      <div class="authors">Sunny Rai, Khushang Jilesh Zaveri, <span class="me">Shreya Havaldar</span>, Soumna Nema, Lyle Ungar, Sharath Chandra Guntuku</div>
+      <div class="venue">NAACL &middot; 2025</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2024.naacl-long.12/">Building Knowledge-Guided Lexica to Model Cultural Variation</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>, Salvatore Giorgi, Sunny Rai, Jeffrey (Young-Min) Cho, Thomas Talhelm, Sharath Chandra Guntuku, Lyle Ungar</div>
+      <div class="venue">NAACL &middot; 2024 &middot; <span class="award">Oral</span></div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2023.emnlp-main.419/">Comparing Styles across Languages</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>, Matthew Pressimone, Eric Wong, Lyle Ungar</div>
+      <div class="venue">EMNLP &middot; 2023</div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2023.ijcnlp-main.20/">Faithful Chain-of-Thought Reasoning</a>
+      <div class="authors">Qing Lyu*, <span class="me">Shreya Havaldar</span>*, Adam Stein*, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch</div>
+      <div class="venue">AACL &middot; 2023 &middot; <span class="award">Area Chair Award</span></div>
+    </li>
+    <li>
+      <a class="title" href="https://aclanthology.org/2023.wassa-1.19/">Multilingual Language Models are not Multicultural: A Case Study in Emotion</a>
+      <div class="authors"><span class="me">Shreya Havaldar</span>, Sunny Rai, Bhumika Singhal, Langchen Liu, Sharath Chandra Guntuku, Lyle Ungar</div>
+      <div class="venue">WASSA @ ACL &middot; 2023 &middot; <span class="award">Best Paper Award</span></div>
+    </li>
+  </ul>
+
+</section>
+
+<footer>
+  <span><span class="email">shreyahavaldar at gmail.com</span></span>
+  <span>&copy; 2026 Shreya Havaldar</span>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  if (!toggle) return;
+  function label() {
+    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    var text = 'Switch to ' + next + ' theme';
+    toggle.setAttribute('aria-label', text);
+    toggle.setAttribute('title', text);
+  }
+  label();
+  toggle.addEventListener('click', function () {
+    var dark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', dark ? 'light' : 'dark');
+    try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
+    label();
+  });
+})();
+
+(function () {
+  var list = document.getElementById('newsList');
+  var btn = document.getElementById('newsToggle');
+  if (!list || !btn) return;
+  btn.hidden = false;
+  btn.addEventListener('click', function () {
+    var open = list.classList.toggle('open');
+    btn.setAttribute('aria-expanded', String(open));
+    btn.textContent = open ? 'Show less' : 'Show earlier news';
+  });
+})();
+</script>
+</body>
+</html>
